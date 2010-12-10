@@ -1,0 +1,20 @@
+dragForces/dragForce/dragForce.C
+dragForces/dragForce/newDragForce.C
+dragForces/noDragForce/noDragForce.C
+dragForces/SchillerNaumann/SchillerNaumann.C
+
+liftForces/liftForce/liftForce.C
+liftForces/liftForce/newLiftForce.C
+liftForces/noLiftForce/noLiftForce.C
+
+virtualMassForces/virtualMassForce/virtualMassForce.C
+virtualMassForces/virtualMassForce/newVirtualMassForce.C
+virtualMassForces/noVirtualMassForce/noVirtualMassForce.C
+
+wallLubricationForces/wallLubricationForce/wallLubricationForce.C
+wallLubricationForces/wallLubricationForce/newWallLubricationForce.C
+wallLubricationForces/noWallLubricationForce/noWallLubricationForce.C
+wallLubricationForces/Frank/Frank.C
+wallLubricationForces/Antal/Antal.C
+
+LIB = $(FOAM_USER_LIBBIN)/libMultiphaseSurfaceForces
